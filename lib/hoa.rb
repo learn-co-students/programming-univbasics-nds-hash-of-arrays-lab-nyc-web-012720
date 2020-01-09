@@ -6,6 +6,8 @@ BASE_HOA = {
 
 
 def add_character(show, name)
+  BASE_HOA[show] << name  #show represents the keys, name represents what I am shoveling into the array associated with the key
+end
   # Write your implementation here
   # Should return the array of the 'show' argument
-end
+
